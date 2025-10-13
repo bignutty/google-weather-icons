@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg android:tint="?colorControlNormal" height="24.0dip" width="24.0dip" viewBox="0 0 960.0 960.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path fill="@android:color/white" d="M480,860q-133,0 -226.5,-92T160,544q0,-63 24.5,-120.5T254,322l226,-222 226,222q45,44 69.5,101.5T800,544q0,132 -93.5,224T480,860Z" />
+</svg>
