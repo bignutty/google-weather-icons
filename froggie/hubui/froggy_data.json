@@ -1,0 +1,578 @@
+{
+  "_lint_if": "LINT.IfChange",
+  "intervalToUpdateAssetInMin":  10,
+  "weather": {
+    "sunny": [
+      {
+        "startHour": 0,
+        "endHour": 5,
+        "timeOfDay": "night",
+        "playCommand": [
+          "Hero-Action",
+          "Sub-Action 01",
+          "Sub-Action 02",
+          "Hero-Action",
+          "Sub-Action 01",
+          "Sub-Action 02",
+          "Hero-Action",
+          "Sub-Action 01",
+          "Sub-Action 02"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "fields",
+          "hill",
+          "hill",
+          "hill"
+        ]
+      },
+      {
+        "startHour": 5,
+        "endHour": 9,
+        "timeOfDay": "morning",
+        "playCommand": [
+          "Hero-Action",
+          "Sub-Action 01",
+          "Sub-Action 02",
+          "Hero-Action",
+          "Sub-Action 01",
+          "Sub-Action 02",
+          "Sub-Action 03",
+          "Hero-Action",
+          "Sub-Action 01",
+          "Sub-Action 02"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "fields",
+          "fields",
+          "hill",
+          "hill",
+          "hill"
+        ]
+      },
+      {
+        "startHour": 9,
+        "endHour": 17,
+        "timeOfDay": "day",
+        "playCommand": [
+          "Hero-Action",
+          "Sub-Action 01",
+          "Sub-Action 02",
+          "Sub-Action 03",
+          "Hero-Action",
+          "Sub-Action 01",
+          "Hero-Action",
+          "Sub-Action 01",
+          "Sub-Action 02",
+          "Sub-Action 03"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "hill",
+          "hill",
+          "hill",
+          "hill"
+        ]
+      },
+      {
+        "startHour": 17,
+        "endHour": 21,
+        "timeOfDay": "sunset",
+        "playCommand": [
+          "Hero-Action",
+          "Sub-Action 01",
+          "Sub-Action 02",
+          "Sub-Action 03",
+          "Hero-Action",
+          "Sub-Action 01",
+          "Sub-Action 02",
+          "Hero-Action",
+          "Sub-Action 01",
+          "Sub-Action 02"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "fields",
+          "hill",
+          "hill",
+          "hill"
+        ]
+      },
+      {
+        "startHour": 21,
+        "endHour": 24,
+        "timeOfDay": "night",
+        "playCommand": [
+          "Hero-Action",
+          "Sub-Action 01",
+          "Sub-Action 02",
+          "Hero-Action",
+          "Sub-Action 01",
+          "Sub-Action 02",
+          "Hero-Action",
+          "Sub-Action 01",
+          "Sub-Action 02"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "fields",
+          "hill",
+          "hill",
+          "hill"
+        ]
+      }
+    ],
+    "cloudy": [
+      {
+        "startHour": 0,
+        "endHour": 5,
+        "timeOfDay": "night",
+        "playCommand": [
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "hill",
+          "hill"
+        ]
+      },
+      {
+        "startHour": 5,
+        "endHour": 9,
+        "timeOfDay": "morning",
+        "playCommand": [
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "hill",
+          "hill"
+        ]
+      },
+      {
+        "startHour": 9,
+        "endHour": 17,
+        "timeOfDay": "day",
+        "playCommand": [
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "hill",
+          "hill"
+        ]
+      },
+      {
+        "startHour": 17,
+        "endHour": 21,
+        "timeOfDay": "sunset",
+        "playCommand": [
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "hill",
+          "hill"
+        ]
+      },
+      {
+        "startHour": 21,
+        "endHour": 24,
+        "timeOfDay": "night",
+        "playCommand": [
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "hill",
+          "hill"
+        ]
+      }
+    ],
+    "hazy": [
+      {
+        "startHour": 0,
+        "endHour": 5,
+        "timeOfDay": "night",
+        "playCommand": [
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "hill",
+          "hill"
+        ]
+      },
+      {
+        "startHour": 5,
+        "endHour": 9,
+        "timeOfDay": "morning",
+        "playCommand": [
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "hill",
+          "hill"
+        ]
+      },
+      {
+        "startHour": 9,
+        "endHour": 17,
+        "timeOfDay": "day",
+        "playCommand": [
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "hill",
+          "hill"
+        ]
+      },
+      {
+        "startHour": 17,
+        "endHour": 21,
+        "timeOfDay": "sunset",
+        "playCommand": [
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "hill",
+          "hill"
+        ]
+      },
+      {
+        "startHour": 21,
+        "endHour": 24,
+        "timeOfDay": "night",
+        "playCommand": [
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "hill",
+          "hill"
+        ]
+      }
+    ],
+    "rainy": [
+      {
+        "startHour": 0,
+        "endHour": 5,
+        "timeOfDay": "night",
+        "playCommand": [
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "hill",
+          "hill"
+        ]
+      },
+      {
+        "startHour": 5,
+        "endHour": 9,
+        "timeOfDay": "morning",
+        "playCommand": [
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "hill",
+          "hill"
+        ]
+      },
+      {
+        "startHour": 9,
+        "endHour": 17,
+        "timeOfDay": "day",
+        "playCommand": [
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "hill",
+          "hill"
+        ]
+      },
+      {
+        "startHour": 17,
+        "endHour": 21,
+        "timeOfDay": "sunset",
+        "playCommand": [
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "hill",
+          "hill"
+        ]
+      },
+      {
+        "startHour": 21,
+        "endHour": 24,
+        "timeOfDay": "night",
+        "playCommand": [
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "hill",
+          "hill"
+        ]
+      }
+    ],
+    "snowy": [
+      {
+        "startHour": 0,
+        "endHour": 5,
+        "timeOfDay": "night",
+        "playCommand": [
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "hill",
+          "hill"
+        ]
+      },
+      {
+        "startHour": 5,
+        "endHour": 9,
+        "timeOfDay": "morning",
+        "playCommand": [
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "hill",
+          "hill"
+        ]
+      },
+      {
+        "startHour": 9,
+        "endHour": 17,
+        "timeOfDay": "day",
+        "playCommand": [
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "hill",
+          "hill"
+        ]
+      },
+      {
+        "startHour": 17,
+        "endHour": 21,
+        "timeOfDay": "sunset",
+        "playCommand": [
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "hill",
+          "hill"
+        ]
+      },
+      {
+        "startHour": 21,
+        "endHour": 24,
+        "timeOfDay": "night",
+        "playCommand": [
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action",
+          "Hero-Action"
+        ],
+        "scene": [
+          "mushroom",
+          "mushroom",
+          "fields",
+          "fields",
+          "hill",
+          "hill"
+        ]
+      }
+    ]
+  },
+  "_lint_then": "LINT.ThenChange(//depot/google3/googledata/html/external_content/gstatic/assistant/dragonglass/hubui_froggy/froggy_update_info.json)"
+}
