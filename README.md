@@ -2,9 +2,6 @@
 
 ## Icons
 
-- There are four distinct themes, `v1`, `v2`, `v3` and `flat`.
-- Naming for specific icons differs between these sets. File names are based on their cdn name.
-
 ### [/icons/weather/v0/](./icons/weather/v0),  [/icons/weather/v1/](./icons/weather/v1)
 
 - Icons from the new GSA Weather Experience (Hyla Weather Immersive), available on throughout most Google experiences (GWS, Pixel Weather, Pixel Launcher, etc.)
@@ -86,19 +83,27 @@
 
 ## Weather Frog
 
-### [/froggie/v1/landscape](./froggie/v1/landscape), [/froggie/v1/portrait](./froggie/v1/portrait)
+### [/froggie/v2/mobile/sm_l](./froggie/v2/mobile/sm_l)
 
-- Google Weather Frog, used by GSA Web Search.
+- Google Weather Frog, used by mobile GWS.
+- This set is still incomplete, feel free to open an issue if you find any new sprites.
+
+[<img src="froggie/v2/mobile/sm_l/75_Partly-Cloudy_Night_Default_Hillside.png" />](./froggie/v1/v1/portrait/01-sunny/01-sunny-rooftop-pinacolada.png)
+
+
+### [/froggie/v1/v1/landscape](./froggie/v1/v1/landscape), [/froggie/v1/v1/portrait](./froggie/v1/v1/portrait)
+
+- Google Weather Frog, previously used by mobile GWS.
 
 #### Portrait
 
-[<img src="froggie/v1/portrait/01-sunny/01-sunny-rooftop-pinacolada.png" />](./froggie/v1/portrait/01-sunny/01-sunny-rooftop-pinacolada.png)
+[<img src="froggie/v1/v1/portrait/01-sunny/01-sunny-rooftop-pinacolada.png" />](./froggie/v1/v1/portrait/01-sunny/01-sunny-rooftop-pinacolada.png)
 
 #### Landscape
 
-[<img src="froggie/v1/landscape/01-sunny/01-sunny-rooftop-pinacolada.png" />](./froggie/v1/landscape/01-sunny/01-sunny-rooftop-pinacolada.png)
+[<img src="froggie/v1/v1/landscape/01-sunny/01-sunny-rooftop-pinacolada.png" />](./froggie/v1/v1/landscape/01-sunny/01-sunny-rooftop-pinacolada.png)
 
-### [/froggie/v2/](./froggie/v2/)
+### [/froggie/v1/v2/](./froggie/v1/v2/)
 
 - Google Weather Frog, used by the new GSA Weather Experience (Hyla Weather Immersive).
 - Has some new images compared to v1.
@@ -106,19 +111,19 @@
 
 #### Mobile
 
-[<img src="froggie/v2/mobile/01-sunny/01-sunny-rooftop-pinacolada.png" />](./froggie/v2/mobile/01-sunny/01-sunny-rooftop-pinacolada.png)
+[<img src="froggie/v1/v2/mobile/01-sunny/01-sunny-rooftop-pinacolada.png" />](./froggie/v1/v2/mobile/01-sunny/01-sunny-rooftop-pinacolada.png)
 
 #### Tablet
 
-[<img src="froggie/v2/tablet/01-sunny/01-sunny-rooftop-pinacolada.png" />](./froggie/v2/tablet/01-sunny/01-sunny-rooftop-pinacolada.png)
+[<img src="froggie/v1/v2/tablet/01-sunny/01-sunny-rooftop-pinacolada.png" />](./froggie/v1/v2/tablet/01-sunny/01-sunny-rooftop-pinacolada.png)
 
 
-### [/froggie/v1/square](./froggie/v1/square)
+### [/froggie/v1/v1/square](./froggie/v1/v1/square)
 
 - Google Weather Frog, used by the old mobile weather experience and widgets.
 - Each asset also exists as separate background, midground and foreground layer sprites.
 
-[<img src="froggie/v1/square/01-sunny/01-sunny-rooftop-pinacolada.png" width="24%" />](./froggie/v1/square/01-sunny/01-sunny-rooftop-pinacolada.png) [<img src="froggie/v1/square/01-sunny/01-sunny-rooftop-pinacolada/01-sunny-rooftop-pinacolada_bg.png" width="24%" />](./froggie/v1/square/01-sunny/01-sunny-rooftop-pinacolada/01-sunny-rooftop-pinacolada_bg.png) [<img src="froggie/v1/square/01-sunny/01-sunny-rooftop-pinacolada/01-sunny-rooftop-pinacolada_mg.png" width="24%" />](./froggie/v1/square/01-sunny/01-sunny-rooftop-pinacolada/01-sunny-rooftop-pinacolada_mg.png) [<img src="froggie/v1/square/01-sunny/01-sunny-rooftop-pinacolada/01-sunny-rooftop-pinacolada_fg.png" width="24%" />](./froggie/v1/square/01-sunny/01-sunny-rooftop-pinacolada/01-sunny-rooftop-pinacolada_fg.png)
+[<img src="froggie/v1/v1/square/01-sunny/01-sunny-rooftop-pinacolada.png" width="24%" />](./froggie/v1/v1/square/01-sunny/01-sunny-rooftop-pinacolada.png) [<img src="froggie/v1/v1/square/01-sunny/01-sunny-rooftop-pinacolada/01-sunny-rooftop-pinacolada_bg.png" width="24%" />](./froggie/v1/v1/square/01-sunny/01-sunny-rooftop-pinacolada/01-sunny-rooftop-pinacolada_bg.png) [<img src="froggie/v1/v1/square/01-sunny/01-sunny-rooftop-pinacolada/01-sunny-rooftop-pinacolada_mg.png" width="24%" />](./froggie/v1/v1/square/01-sunny/01-sunny-rooftop-pinacolada/01-sunny-rooftop-pinacolada_mg.png) [<img src="froggie/v1/v1/square/01-sunny/01-sunny-rooftop-pinacolada/01-sunny-rooftop-pinacolada_fg.png" width="24%" />](./froggie/v1/v1/square/01-sunny/01-sunny-rooftop-pinacolada/01-sunny-rooftop-pinacolada_fg.png)
 
 ### [/froggie/hubui](./froggie/hubui)
 
